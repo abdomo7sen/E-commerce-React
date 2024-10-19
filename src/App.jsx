@@ -8,12 +8,12 @@ import Login from './Components/Login/Login'
 import Register from './Components/Register/Register'
 import Categories from './Components/Categories/Categories'
 import Layout from './Components/Layout/Layout'
-import UserContextProvider from './context/userContext';
-import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute';
+// import UserContextProvider from './context/userContext';
+// import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute';
 import NotFound from './Components/NotFound/NotFound';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
 import  { Toaster } from 'react-hot-toast';
-import ShippingAddress from './Components/shippingAddress/ShippingAddress';
+// import ShippingAddress from './Components/shippingAddress/ShippingAddress';
 import AllOrders from './Components/AllOrders/AllOrders';
 import ShappingAddresss from './Components/ShippingAddresss/ShappingAddresss';
 import WishList from './Components/WishList/WishList';
@@ -45,6 +45,7 @@ let routes = createBrowserRouter([
     {path:'Brands' , element:<Brands/>},
     {path:'Login' , element:<Login/>},
     {path:'Register' , element:<Register/>},
+    {path:'E-commerce-React' , element:<Home/>},
     {path:'*' , element:<NotFound/>},
   ] }
 ])

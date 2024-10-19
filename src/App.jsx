@@ -45,10 +45,9 @@ let routes = createBrowserRouter([
     {path:'Brands' , element:<Brands/>},
     {path:'Login' , element:<Login/>},
     {path:'Register' , element:<Register/>},
-    {path:'E-commerce-React' , element:<Home/>},
     {path:'*' , element:<NotFound/>},
   ] }
-])
+],{basename:"/E-commerce-React"})
 
 function App() {
   

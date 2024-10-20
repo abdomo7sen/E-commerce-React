@@ -47,7 +47,7 @@ let routes = createBrowserRouter([
     {path:'Register' , element:<Register/>},
     {path:'*' , element:<NotFound/>},
   ] }
-],{basename:"/E-commerce"})
+],{basename:"/E-commerce-React"})
 
 function App() {
   
